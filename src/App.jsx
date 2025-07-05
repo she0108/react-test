@@ -3,7 +3,8 @@ import "./App.css";
 function App() {
   return (
     <>
-      <p>{import.meta.env.VITE_ENV}</p>
+      <p>VITE ENV: {import.meta.env.VITE_ENV}</p>
+      <p>SECRET KEY: {import.meta.env.VITE_SECRET_KEY}</p>
     </>
   );
 }
